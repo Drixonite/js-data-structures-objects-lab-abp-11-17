@@ -11,6 +11,6 @@ function updateDriverWithKeyAndValue(driver, name, address) {
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, name, address) {
-  driver.assign({}, {[name]: Sam}, {[address]: 12 Broadway} );
+  driver.assign({}, {[name]: Sam, [address]: 12 Broadway} );
   return;
 }
